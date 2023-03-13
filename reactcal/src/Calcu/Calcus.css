@@ -1,0 +1,46 @@
+
+.app {
+    margin: 50px auto;
+    border: 1px solid black;
+    width: 250px;
+    background-color: beige;
+    border-radius: 5px 5px;
+}
+h3 {
+    margin: 0;
+}
+
+.screen {
+    width: 100%;
+
+    text-align: right;
+}
+
+.action, h3 {
+    margin: 0 40px;
+}
+
+.numsOpers {
+    display: flex;
+}
+
+.nums, .opers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.num, .op, .equal {
+    background-color: goldenrod;
+}
+
+.num {
+    width: 33%;
+}
+
+.op {
+    width: 50%;
+}
+.equal {
+    width: 100%;
+    text-align: center;
+}
